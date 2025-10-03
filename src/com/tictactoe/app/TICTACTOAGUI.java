@@ -9,6 +9,7 @@ public class TICTACTOAGUI {
     private char currentPlayer = 'X';
 
     public TICTACTOAGUI() {
+        
         frame = new JFrame("Tic Tac Toe");
         frame.setSize(400, 400);
         frame.setLayout(new GridLayout(3, 3));
